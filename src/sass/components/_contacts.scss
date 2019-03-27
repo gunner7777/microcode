@@ -1,0 +1,39 @@
+.Contacts {
+  /*   padding-top: 10px;
+  padding-bottom: 10px; */
+  color: $white;
+
+  &-Line {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    /* margin-top: 7px; */
+    font-weight: 700;
+
+    &:nth-last-child(1) {
+      margin-top: 7px;
+    }
+  }
+
+  &-Icon {
+    font-size: 1.9rem;
+    margin-right: 10px;
+
+    &_Footer {
+      font-size: 1.7rem;
+    }
+  }
+
+  &-Text {
+    font-size: 1.1rem;
+
+    &_Footer {
+      font-size: 1rem;
+    }
+  }
+
+  &-Social {
+    margin: 3px 0;
+  }
+}

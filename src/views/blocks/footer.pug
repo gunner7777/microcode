@@ -1,0 +1,33 @@
+mixin footer-menu-item(text)
+  li.FooterMenu-Item
+    a.FooterMenu-Link(href="#")= text
+
+
+footer.Footer.Container
+  .Block
+    .FooterSection.Col12.ColXl4.ColLg4.ColMd4.ColSm6
+      .FooterSection-Outer
+        h4.FooterSection-Title Меню
+        ul.FooterMenu
+          +footer-menu-item("Блог")
+          +footer-menu-item("Интернет-магазин")
+
+    .FooterSection.Col12.ColXl4.ColLg4.ColMd4.ColSm6
+      .FooterSection-Outer.FooterSection-Contacts
+        h4.FooterSection-Title Контакты
+        p.FooterSection-Line.Contacts-Line
+          i.fas.fa-phone.Contacts-Icon.Contacts-Icon_Footer
+          span.Contacts-Text.Contacts-Text_Footer +7 922 922 925 7
+        p.FooterSection-Line.Contacts-Line
+          i.fas.fa-envelope.Contacts-Icon.Contacts-Icon_Footer
+          span.Contacts-Text.Contacts-Text_Footer info@sp-mc.ru
+
+    .FooterSection.Col12.ColXl4.ColLg4.ColMd4.ColSm12
+      .FooterSection-Outer.FooterSection-Socials
+        h4.FooterSection-Title Социальные сети
+        p.FooterSection-Line
+          i.fab.fa-vk.SocialIcon.SocialIcon-Vk.SocialIcon_Header
+          i.fab.fa-twitter.SocialIcon.SocialIcon-Twitter.SocialIcon_Header
+
+  .Copyright.Text_Center
+    p &copy; НПО "МикроКод"

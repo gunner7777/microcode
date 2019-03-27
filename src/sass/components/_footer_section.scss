@@ -1,0 +1,53 @@
+.FooterSection {
+  margin-bottom: 15px;
+
+  &-Outer {
+    position: relative;
+    display: inline-block;
+  }
+
+  &-Contacts {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  &-Socials {
+    left: 100%;
+    transform: translateX(-100%);
+  }
+
+  &-Title {
+    margin-bottom: 5px;
+    font-size: 1.2rem;
+  }
+
+  &-Line {
+    margin-bottom: 2px;
+  }
+}
+
+@include mq-max(767px) {
+  .FooterSection {
+    &-Contacts {
+      left: 0;
+      transform: translateX(0);
+    }
+
+    &-Socials {
+      left: 50%;
+      transform: translateX(-50%);
+      text-align: center;
+    }
+  }
+}
+
+@include mq-max(575px) {
+  .FooterSection {
+
+    &-Socials {
+      left: 0;
+      transform: translateX(0);
+      text-align: left;
+    }
+  }
+}

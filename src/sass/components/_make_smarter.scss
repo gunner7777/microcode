@@ -1,0 +1,28 @@
+.MakeSmarter {
+  position: absolute;
+  width: calc(100% - 30px);
+
+  &-TitleOuter {
+    color: $white;
+    text-align: center;
+  }
+
+  &-Subtitle {
+    margin-top: -10px;
+    font-size: 2rem;
+    font-weight: 400;
+    color: $light_gray;
+    position: relative;
+
+    &:before {
+      content: "";
+      position: absolute;
+      top: -10px;
+      width: 200px;
+      height: 3px;
+      background-color: #fff;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+}

@@ -1,0 +1,26 @@
+@import "../vendor/normalize.css";
+
+@import "./utils/mixin";
+
+/* base */
+@import "./base/colors";
+@import "./base/vars";
+@import "./base/reset";
+@import "./base/grid";
+@import "./base/common";
+
+/* layout */
+@import "./layout/header";
+@import "./layout/footer";
+
+/* components */
+@import "./components/high_community";
+@import './components/img_background';
+@import "./components/logo";
+@import "./components/contacts";
+@import "./components/social_icon";
+@import "./components/footer_section";
+@import "./components/footer_menu";
+@import "./components/copyright";
+@import "./components/make_smarter";
+@import "./components/title_of_block";
