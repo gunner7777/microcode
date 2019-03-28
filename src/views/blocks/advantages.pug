@@ -1,0 +1,33 @@
+mixin advantage(img, text)
+  .Advantage
+    img.Advantage-Img(src= img alt="advantages")
+    p.Advantage-Text.Text_Center= text
+
+section.Advantages-Outer.Container-Outer
+  .Block
+    h1.TitleOfBlock Наши преимущества
+  .Advantages.Block
+    +advantage(
+      "/images/data.png",
+      "Системы собственной разработки"
+    )
+    +advantage(
+      "/images/support.png",
+      "Профессиональная консультация"
+    )
+    +advantage(
+      "/images/team.png",
+      "Индивидуальный подход"
+    )
+    +advantage(
+      "/images/refresh.png",
+      "Мы постоянно совершенствуем системы"
+    )
+    +advantage(
+      "/images/chip.png",
+      "Надежная элементная база"
+    )
+    +advantage(
+      "/images/engineer.png",
+      "Простота установки и эксплуатации"
+    )
