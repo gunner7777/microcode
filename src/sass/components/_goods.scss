@@ -1,0 +1,27 @@
+.Goods {
+  width: 66%;
+  margin: 0 auto;
+
+  &-Outer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+
+.SingleGoods {
+  flex: 0 0 30%;
+  padding: 20px;
+
+  &-Img {
+    max-height: 250px;
+    width: auto;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  &-Title {
+    margin-top: 10px;
+    margin-bottom: 7px;
+  }
+}

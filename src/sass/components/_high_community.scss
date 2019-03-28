@@ -1,8 +1,9 @@
 .HighCommunity {
+  position: relative;
 
-  /* position: relative; */
   &-Text {
     position: absolute;
     top: 15px;
+    height: 100%;
   }
 }

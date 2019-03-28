@@ -1,10 +1,14 @@
 .MakeSmarter {
-  position: absolute;
+  position: relative;
+  bottom: 20%;
+  transform: translateY(100%);
   width: calc(100% - 30px);
+  margin: 0 auto;
 
   &-TitleOuter {
     color: $white;
     text-align: center;
+    margin-bottom: 50px;
   }
 
   &-Subtitle {
@@ -20,9 +24,20 @@
       top: -10px;
       width: 200px;
       height: 3px;
-      background-color: #fff;
+      background-color: $white;
       left: 50%;
       transform: translateX(-50%);
+    }
+  }
+
+  &-Items {
+    width: 66%;
+    margin: 0 auto;
+
+    &>li {
+      margin: 10px 10px 30px 20px;
+      flex: 0 0 calc(100% / 3 - 30px);
+      min-width: 100px;
     }
   }
 }

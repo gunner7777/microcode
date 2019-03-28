@@ -1,0 +1,80 @@
+mixin oneGoods(img, title, description)
+  article.SingleGoods
+    img.SingleGoods-Img(src= img alt="goods")
+    h3.SingleGoods-Title.Text_Center= title
+    p.SingleGoods-Description= description
+
+section.Goods-Outer.Container
+  .Block
+    h1.TitleOfBlock Продукты
+  .Goods.Block
+    +oneGoods(
+      '/images/product1.png',
+      "Nest Learning Thermostat",
+      "The Nest Learning Thermostat programs" +
+      "itself to help save energy. You can control" +
+      "it from anywhere with the Nest app." +
+      "With seven different ring colors, it fits" +
+      "in with any home. And it works with" +
+      "the Nest Temperature Sensor to give" +
+      "you the right temperature, right where" +
+      "you want it (sold separately)."
+    )
+    +oneGoods(
+      '/images/product2.png',
+      "Nest Cam Indoor",
+      "Meet Nest Cam Indoor. 24/7 live streaming." +
+      "Quick, easy setup. No dead batteries." +
+      "This is what an indoor security" +
+      "camera should be."
+    )
+    +oneGoods(
+      '/images/product3.png',
+      "Nest × Yale Lock",
+      "Yale knows secure locks. Nest knows the" +
+      "connected home. Together, we’ve made" +
+      "a tamper‑proof, key‑free deadbolt that" +
+      "connects to the Nest app.1 Now you can" +
+      "lock and unlock your door from anywhere." +
+      "Give people you trust a passcode, instead" +
+      "of a key. Lock and check your door status" +
+      "with your voice using the Google" +
+      "Assistant. And always know who comes" +
+      "and goes."
+    )
+    +oneGoods(
+      '/images/product1.png',
+      "Nest Learning Thermostat",
+      "The Nest Learning Thermostat programs" +
+      "itself to help save energy. You can control" +
+      "it from anywhere with the Nest app." +
+      "With seven different ring colors, it fits" +
+      "in with any home. And it works with" +
+      "the Nest Temperature Sensor to give" +
+      "you the right temperature, right where" +
+      "you want it (sold separately)."
+    )
+    +oneGoods(
+      '/images/product2.png',
+      "Nest Cam Indoor",
+      "Meet Nest Cam Indoor. 24/7 live streaming." +
+      "Quick, easy setup. No dead batteries." +
+      "This is what an indoor security" +
+      "camera should be."
+    )
+    +oneGoods(
+      '/images/product3.png',
+      "Nest × Yale Lock",
+      "Yale knows secure locks. Nest knows the" +
+      "connected home. Together, we’ve made" +
+      "a tamper‑proof, key‑free deadbolt that" +
+      "connects to the Nest app.1 Now you can" +
+      "lock and unlock your door from anywhere." +
+      "Give people you trust a passcode, instead" +
+      "of a key. Lock and check your door status" +
+      "with your voice using the Google" +
+      "Assistant. And always know who comes" +
+      "and goes."
+    )
+  .Block
+    a.Button(href="#") Перейти в магазин
