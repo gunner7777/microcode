@@ -6,3 +6,21 @@
     background-color: #dbfff7;
   }
 }
+
+@include mq-max(966px) {
+  .Advantages {
+    width: 72%;
+  }
+}
+
+@include mq-max(888px) {
+  .Advantages {
+    width: 80%;
+  }
+}
+
+@include mq-max(466px) {
+  .Advantages {
+    width: 95%;
+  }
+}

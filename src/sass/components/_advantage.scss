@@ -1,6 +1,7 @@
 .Advantage {
   flex: 0 0 30%;
   padding: 20px;
+  min-width: 180px;
 
   &-Img {
     position: relative;
@@ -13,5 +14,62 @@
   &-Text {
     margin-top: 7px;
     font-size: 1.2em;
+  }
+}
+
+@include mq-max(1271px) {
+  .Advantage {
+    &-Img {
+      max-height: 100px;
+    }
+
+    &-Text {
+      font-size: 1.1em;
+    }
+  }
+}
+
+@include mq-max(991px) {
+  .Advantage {
+    &-Img {
+      max-height: 90px;
+    }
+
+    &-Text {
+      font-size: 1em;
+    }
+  }
+}
+
+@include mq-max(691px) {
+  .Advantage {
+    padding: 10px;
+  }
+
+  &-Img {
+    max-height: 70px;
+  }
+}
+
+@include mq-max(562px) {
+  .Advantage {
+    &-Img {
+      max-height: 70px;
+    }
+  }
+}
+
+@include mq-max(400px) {
+  .Advantage {
+    padding: 7px;
+    min-width: 160px;
+
+    &-Img {
+      max-height: 65px;
+    }
+
+    &-Text {
+      font-size: .9em;
+    }
   }
 }

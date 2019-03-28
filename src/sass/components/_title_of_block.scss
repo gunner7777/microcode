@@ -2,3 +2,27 @@
   font-size: 2.4rem;
   margin-bottom: 30px;
 }
+
+@include mq-max(768px) {
+  .TitleOfBlock {
+    font-size: 2.2rem;
+  }
+}
+
+@include mq-max(576px) {
+  .TitleOfBlock {
+    font-size: 2rem;
+  }
+}
+
+@include mq-max(400px) {
+  .TitleOfBlock {
+    font-size: 1.8rem;
+  }
+}
+
+@include mq-max(320px) {
+  .TitleOfBlock {
+    font-size: 1.6rem;
+  }
+}
