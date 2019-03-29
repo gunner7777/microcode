@@ -35,7 +35,7 @@
 
 /* new grid system */
 
-.no-gutters {
+.No-Gutters {
   margin-right: 0;
   margin-left: 0;
 
@@ -248,7 +248,7 @@
   }
 }
 
-@include mq-min(992px) {
+@include mq-min(1200px) {
   .ColXl1 {
     @include column(1);
   }

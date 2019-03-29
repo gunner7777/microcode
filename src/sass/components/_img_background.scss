@@ -1,7 +1,49 @@
 .ImgBackground {
   height: auto;
 
-  /* &>img {
-    min-height: 300px;
-  } */
+  .ImgBackground {
+    &-Img {
+      object-fit: cover;
+    }
+  }
+}
+
+@include mq-max(1100px) {
+  .ImgBackground {
+    &-Img {
+      height: 500px;
+    }
+  }
+}
+
+@include mq-max(673px) {
+  .ImgBackground {
+    &-Img {
+      height: 460px;
+    }
+  }
+}
+
+@include mq-max(576px) {
+  .ImgBackground {
+    &-Img {
+      height: 500px;
+    }
+  }
+}
+
+@include mq-max(274px) {
+  .ImgBackground {
+    &-Img {
+      height: 540px;
+    }
+  }
+}
+
+@include mq-max(249px) {
+  .ImgBackground {
+    &-Img {
+      height: 580px;
+    }
+  }
 }

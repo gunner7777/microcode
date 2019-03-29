@@ -25,9 +25,147 @@
 
 }
 
-@include mq-max(360px) {
+@include mq-max(721px) {
   .Logo {
-    text-align: center;
-    font-size: 1.3rem;
+    &-Img {
+      height: 80px;
+      width: 80px;
+    }
+
+    &-Title {
+      font-size: 2.2rem;
+    }
+
+    &-Hint {
+      font-size: .86rem;
+    }
+  }
+}
+
+@include mq-max(630px) {
+  .Logo {
+    &-Img {
+      height: 80px;
+      width: 80px;
+    }
+
+    &-Title {
+      font-size: 2rem;
+    }
+
+    &-Hint {
+      font-size: .79rem;
+    }
+  }
+}
+
+@include mq-max(595px) {
+  .Logo {
+    &-Img {
+      height: 70px;
+      width: 70px;
+    }
+
+    &-Title {
+      font-size: 1.9rem;
+    }
+
+    &-Hint {
+      font-size: .74rem;
+    }
+  }
+}
+
+@include mq-max(575px) {
+  .Logo {
+    justify-content: center;
+
+    &-Img {
+      height: 80px;
+      width: 80px;
+    }
+
+    &-Title {
+      font-size: 2rem;
+    }
+
+    &-Hint {
+      font-size: .79rem;
+    }
+  }
+}
+
+@include mq-max(381px) {
+  .Logo {
+
+    &-Img {
+      height: 70px;
+      width: 70px;
+    }
+
+    &-Title {
+      font-size: 1.8rem;
+    }
+
+    &-Hint {
+      font-size: .7rem;
+    }
+  }
+}
+
+@include mq-max(346px) {
+  .Logo {
+    padding-right: 10px;
+    padding-left: 10px;
+
+    &-Img {
+      height: 65px;
+      width: 65px;
+    }
+
+    &-Title {
+      font-size: 1.7rem;
+    }
+
+    &-Hint {
+      font-size: .66rem;
+    }
+  }
+}
+
+@include mq-max(319px) {
+  .Logo {
+    &-Img {
+      height: 60px;
+      width: 60px;
+    }
+  }
+}
+
+@include mq-max(297px) {
+  .Logo {
+    &-Img {
+      display: none;
+    }
+
+    &-Title {
+      font-size: 1.8rem;
+    }
+
+    &-Hint {
+      font-size: .7rem;
+    }
+  }
+}
+
+@include mq-max(260px) {
+  .Logo {
+    &-Title {
+      text-align: center;
+    }
+
+    &-Hint {
+      text-align: center;
+    }
   }
 }

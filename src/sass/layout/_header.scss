@@ -1,9 +1,18 @@
 .Header {
-  /*   position: absolute;
-  top: 15px; */
   margin-bottom: 50px;
   padding-top: 10px;
   padding-bottom: 10px;
   height: auto;
-  /* min-height: 200px; */
+}
+
+@include mq-max(768px) {
+  .Header {
+    margin-bottom: 30px;
+  }
+}
+
+@include mq-max(576px) {
+  .Header {
+    margin-bottom: 20px;
+  }
 }

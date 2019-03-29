@@ -24,3 +24,41 @@
     }
   }
 }
+
+@include mq-max(1100px) {
+  .MList {
+    font-size: 1.3rem;
+  }
+}
+
+@include mq-max(673px) {
+  .MList {
+    font-size: 1.1rem;
+
+    &-Item {
+      &>span {
+        &:before {
+          left: -17px;
+          top: 5px;
+        }
+      }
+    }
+  }
+}
+
+@include mq-max(575px) {
+  .MList {
+    font-size: 1rem;
+
+    &-Item {
+      &>span {
+        &:before {
+          width: 8px;
+          height: 8px;
+          left: -12px;
+          top: 6px;
+        }
+      }
+    }
+  }
+}

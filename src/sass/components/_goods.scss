@@ -11,6 +11,8 @@
 .SingleGoods {
   flex: 0 0 30%;
   padding: 20px;
+  max-width: 240px;
+  overflow: hidden;
 
   &-Img {
     max-height: 250px;

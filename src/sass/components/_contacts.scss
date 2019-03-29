@@ -2,6 +2,7 @@
   /*   padding-top: 10px;
   padding-bottom: 10px; */
   color: $white;
+  padding-top: 15px;
 
   &-Line {
     display: flex;
@@ -36,5 +37,51 @@
 
   &-Social {
     margin: 3px 0;
+  }
+}
+
+@include mq-max(721px) {
+  .Contacts {
+    padding-top: 7px;
+
+    &-Text {
+      font-size: 1rem;
+    }
+
+    &-Icon {
+      font-size: 1.6rem;
+    }
+  }
+}
+
+@include mq-max(630px) {
+  .Contacts {
+    padding-top: 15px;
+
+    &-Text {
+      font-size: .9rem;
+    }
+
+    &-Icon {
+      font-size: 1.3rem;
+    }
+  }
+}
+
+@include mq-max(575px) {
+  .Contacts {
+    padding-top: 15px;
+
+    &-Text {
+      font-size: 1rem;
+    }
+
+    &-Icon {
+      font-size: 1.5rem;
+    }
+
+    &-Line {
+      justify-content: center;
+    }
   }
 }

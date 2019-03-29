@@ -3,25 +3,31 @@
   margin-bottom: 30px;
 }
 
-@include mq-max(768px) {
+@include mq-max(1100px) {
   .TitleOfBlock {
     font-size: 2.2rem;
   }
 }
 
-@include mq-max(576px) {
+@include mq-max(700px) {
   .TitleOfBlock {
     font-size: 2rem;
   }
 }
 
-@include mq-max(400px) {
+@include mq-max(620px) {
   .TitleOfBlock {
     font-size: 1.8rem;
   }
 }
 
-@include mq-max(320px) {
+@include mq-max(381px) {
+  .TitleOfBlock {
+    font-size: 1.7rem;
+  }
+}
+
+@include mq-max(307px) {
   .TitleOfBlock {
     font-size: 1.6rem;
   }
