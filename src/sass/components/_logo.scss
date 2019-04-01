@@ -152,14 +152,21 @@
       font-size: 1.8rem;
     }
 
+    &-Text {
+      margin-left: 0;
+    }
+
     &-Hint {
       font-size: .7rem;
     }
   }
 }
 
-@include mq-max(260px) {
+@include mq-max(270px) {
   .Logo {
+    padding-right: 0;
+    padding-left: 0;
+
     &-Title {
       text-align: center;
     }

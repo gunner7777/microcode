@@ -166,6 +166,18 @@
   }
 }
 
+@include mq-max(334px) {
+  .MakeSmarter {
+    width: 95%;
+
+    &-TitleOuter {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+}
+
+
 @include mq-max(381px) {
   .MakeSmarter {
     &-Subtitle {

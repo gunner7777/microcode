@@ -9,13 +9,14 @@
 }
 
 .SingleGoods {
-  flex: 0 0 30%;
+  flex: 1 0 calc(30% - 40px);
   padding: 20px;
-  max-width: 240px;
-  overflow: hidden;
+  min-width: 240px;
+  /*overflow: hidden; */
 
   &-Img {
-    max-height: 250px;
+    max-height: 200px;
+    height: 50%;
     width: auto;
     position: relative;
     left: 50%;
@@ -25,5 +26,17 @@
   &-Title {
     margin-top: 10px;
     margin-bottom: 7px;
+  }
+}
+
+@include mq-max(1200px) {
+  .Goods {
+    width: 80%;
+  }
+}
+
+@include mq-max(992px) {
+  .Goods {
+    width: 90%;
   }
 }

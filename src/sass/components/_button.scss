@@ -13,3 +13,9 @@
     opacity: .9;
   }
 }
+
+@include mq-max(254px) {
+  .Button {
+    font-size: 1rem;
+  }
+}
